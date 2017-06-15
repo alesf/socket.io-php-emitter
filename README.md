@@ -2,7 +2,7 @@
 
 ### *Fork of ashiina/socket.io-php-emitter*
 
-This is a fork of [rase-/socket.io-php-emitter](https://github.com/ashiina/socket.io-php-emitter).
+This is a fork of [ashiina/socket.io-php-emitter](https://github.com/ashiina/socket.io-php-emitter).
 If you have any questions or issues, please submit them there as this fork is not actively developed.
 
 socket.io-php-emitter
