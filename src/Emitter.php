@@ -67,10 +67,11 @@ class Emitter {
    */
 
   public function in($room) {
-    if (!in_array($room, $this->_rooms)) {
+    if (is_array($room) {
+      $this->_rooms = array_unique(array_merge($this->_rooms, $room);
+    } else if ((is_string($room) || is_numeric($room)) && !in_array($room, $this->_rooms)) {
       $this->_rooms[] = $room;
     }
-
     return $this;
   }
 
